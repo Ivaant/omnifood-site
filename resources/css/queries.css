@@ -1,0 +1,193 @@
+/* from big tablet to 1200px */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+    .city-card p {
+        font-size: 70%;
+    }
+    .contact-form h2 {
+        font-size: 140%;
+    }
+}
+
+
+/* Small tablet to big tablet: 767px < width < 1023px */
+
+@media only screen and (max-width: 1023px) {
+    html,
+    body {
+        font-size: 1.2rem;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .works-step {
+        margin-bottom: 40px;
+    }
+    .works-step:nth-last-of-type(1) {
+        margin-bottom: 70px;
+    }
+    .btn-app img {
+        height: 40px;
+        margin: 5px;
+    }
+    .app-screen {
+        width: 50%;
+    }
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan-box ul {
+        font-size: 80%;
+    }
+    .plan-price {
+        font-size: 250%;
+        font-weight: 300;
+    }
+    .contact-form {
+        width: 80%;
+    }
+    .contact-form h2 {
+        font-size: 150%;
+    }
+    .icon-small {
+        width: 20px;
+    }
+    .city-card p {
+        font-size: 70%;
+        margin-left: 5px;
+    }
+}
+
+
+/* from small phones to tablets: 480px < width < 768px */
+
+@media only screen and (max-width: 767px) {
+    html,
+    body {
+        font-size: 1rem;
+    }
+    section {
+        padding: 30px 0;
+    }
+    h1,
+    h2 {
+        font-size: 120%;
+    }
+    .icon-big {
+        text-align: left;
+    }
+    .hero-text-box,
+    .row {
+        padding: 0 4%;
+    }
+    .box {
+        padding: 0 5%;
+    }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    /* .main-nav {
+        display: none;
+    } */
+    /**MOBILE NAV*/
+    .mobile-nav-icon {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    /**STICKY NAV*/
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    .sticky .mobile-nav-icon i {
+        color: #555;
+    }
+    .long-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+    .app-screen {
+        width: 40%;
+    }
+    .works-step {
+        margin-bottom: 20px;
+    }
+    .works-step:nth-last-of-type(1) {
+        margin-bottom: 30px;
+    }
+    .steps-box:first-child {
+        text-align: center;
+        padding-right: 0;
+    }
+    .works-step div {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+        border: solid 1px #e67e22;
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 100%;
+    }
+}
+
+
+/*--------SMALL PHONES--------------------*/
+
+
+/* from 0 to 480 px width */
+
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 20px 0;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    h2 {
+        font-size: 110%;
+        font-weight: 400;
+    }
+    .contact-form h2 {
+        font-size: 110%;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    .footer-nav,
+    .social {
+        float: none;
+        margin-top: 20px;
+    }
+}
